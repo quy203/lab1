@@ -1,0 +1,110 @@
+/* 
+ Tiền tố:
+ d-*: display
+ bg-*: background
+ text-*: color hoặc align
+ m-*: margin
+ p-*: padding
+ d-*: display
+  ví dụ: 
+    + d-flex -> display: flex
+    + d-grid -> display: grid
+ content-*: justify-content
+ align-*: align-items
+ 
+*/
+
+.container {
+    max-width: 980px;
+  }
+  /* =========== Background color =========== */
+  .bg-primary {
+    background: orange;
+  }
+  .bg-secondary {
+    background: blue;
+  }
+  /* ===========  Text color ===========  */
+  .text-primary {
+    color: orange;
+  }
+  .text-white {
+    color: #fff;
+  }
+  .text-black {
+    color: #000;
+  }
+  /* ===========  Alignment ===========  */
+  .text-center {
+    text-align: center;
+  }
+  .text-left {
+    text-align: left;
+  }
+  .text-right {
+    text-align: right;
+  }
+  /* ===========  Margin ===========  */
+  .mx-auto {
+    margin: auto;
+  }
+  .m-0 {
+    margin: 0;
+  }
+  .mb-4 {
+    margin-bottom: 16px;
+  }
+  /* ===========  Padding ===========  */
+  .p-0 {
+    padding: 0;
+  }
+  .p-1 {
+    padding: 4px;
+  }
+  .p-4 {
+    padding: 16px;
+  }
+  .py-4 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .px-2 {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  /* ===========  Width ===========  */
+  .max-w-full {
+    max-width: 100%;
+  }
+  /* ===========  Display ===========  */
+  .d-flex {
+    display: flex;
+  }
+  .d-grid {
+    display: grid;
+  }
+  .grid-column-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .grid-column-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .gap-8 {
+    grid-gap: 32px;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .align-center {
+    align-items: center;
+  }
+  .list-unstyled {
+    list-style: none;
+  }
+  .no-underline {
+    text-decoration: none;
+  }
+  .border {
+    border: 1px solid #ccc;
+  }
+  
